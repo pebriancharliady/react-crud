@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  font-size: 0.875rem;
+}
+
+#App-sidebar-wrapper {
+  min-height: 100vh !important;
+  /* width: 100vw; */
+  /* margin-left: -1rem; */
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+#App-sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#App-page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+  margin-left: 253px;
+  background-color: #0ea6c914;
+}
+
+#App-main-content-wrapper{
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 6px 4px #0000000c;
+  min-height: 38rem;
+  margin: 1rem 1rem;
+}
